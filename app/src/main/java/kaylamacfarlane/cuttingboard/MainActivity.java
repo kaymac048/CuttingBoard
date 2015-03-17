@@ -25,6 +25,24 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        final Button Ebutton = (Button) findViewById(R.id.Ebutton);
+        Ebutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Explore.class);
+                startActivity(intent);
+
+            }
+        });
+
+        final Button RBbutton = (Button) findViewById(R.id.RBbutton);
+        RBbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Recipe_Box.class);
+                startActivity(intent);
+
+            }
+        });
+
         final Button CCbutton = (Button) findViewById(R.id.CCbutton);
         CCbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
