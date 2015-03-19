@@ -11,5 +11,9 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="title_activity_conversion_chart">Conversion Chart</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_recipe">Recipe</string>
+    <string name="title_activity_conversion__tool">Conversion Tool</string>
 
 </resources>

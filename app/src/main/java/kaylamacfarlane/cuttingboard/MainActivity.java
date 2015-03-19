@@ -16,10 +16,10 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button ARbutton = (Button) findViewById(R.id.ARbutton);
-        ARbutton.setOnClickListener(new View.OnClickListener() {
+        final Button Hbutton = (Button) findViewById(R.id.Hbutton);
+        Hbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Add_Recipe.class);
+                Intent intent = new Intent(MainActivity.this, Home.class);
                 startActivity(intent);
 
             }
@@ -29,6 +29,24 @@ public class MainActivity extends ActionBarActivity {
         Ebutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Explore.class);
+                startActivity(intent);
+
+            }
+        });
+
+        final Button ARbutton = (Button) findViewById(R.id.ARbutton);
+        ARbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Add_Recipe.class);
+                startActivity(intent);
+
+            }
+        });
+
+        final Button Rbutton = (Button) findViewById(R.id.Rbutton);
+        Rbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Recipe.class);
                 startActivity(intent);
 
             }
@@ -47,6 +65,15 @@ public class MainActivity extends ActionBarActivity {
         CCbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Conversion_Chart.class);
+                startActivity(intent);
+
+            }
+        });
+
+        final Button CTbutton = (Button) findViewById(R.id.CTbutton);
+        CTbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Conversion_Tool.class);
                 startActivity(intent);
 
             }
