@@ -15,5 +15,6 @@
     <string name="title_activity_home">Home</string>
     <string name="title_activity_recipe">Recipe</string>
     <string name="title_activity_conversion__tool">Conversion Tool</string>
+    <string name="title_activity_recipe__module">Recipe_Module</string>
 
 </resources>

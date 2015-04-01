@@ -69,6 +69,10 @@
             android:name=".Conversion_Tool"
             android:label="@string/title_activity_conversion__tool" >
         </activity>
+        <activity
+            android:name=".Recipe_Module"
+            android:label="@string/title_activity_recipe__module" >
+        </activity>
     </application>
 
 </manifest>
