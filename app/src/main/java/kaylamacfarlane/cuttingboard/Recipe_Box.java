@@ -142,9 +142,9 @@ public class Recipe_Box extends ActionBarActivity implements ActionBar.TabListen
             Locale l = Locale.getDefault();
             switch (position) {
                 case 0:
-                    return getString(R.string.title_section1).toUpperCase(l);
+                    return getString(R.string.title_section4).toUpperCase(l);
                 case 1:
-                    return getString(R.string.title_section2).toUpperCase(l);
+                    return getString(R.string.title_section5).toUpperCase(l);
             }
             return null;
         }
