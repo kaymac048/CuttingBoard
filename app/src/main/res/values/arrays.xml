@@ -2,8 +2,109 @@
 <resources>
 
     <string-array name="equivalents">
-        <item>A dash = 1/16 tsp</item>
-        <item>A pinch = 1/8 tsp</item>
+        <item>Teaspoon (tsp)</item>
+        <item>1/16 tsp = A dash</item>
+        <item>1/8 tsp = A pinch</item>
+        <item>1 tsp = (&#8531;) tsp</item>
+        <item>3 tsp = 1 tbsp</item>
+        <item>Tablespoon (tbsp)</item>
+        <item>(&#189;) tbsp = 1 (&#189;) tsp</item>
+        <item>2 tbsp = 1/8 cup</item>
+        <item>3 tbsp = 1 (&#189;) ounce</item>
+        <item>4 tbsp = (&#188;) cup</item>
+        <item>5 tbsp + 1 tsp = (&#8531;) cup</item>
+        <item>8 tbsp = (&#189;) cup</item>
+        <item>10 tbsp + 2tsp = 2/3 cup</item>
+        <item>12 tbsp = (&#190;) cup</item>
+        <item>16 tbsp = 1 cup OR (&#189;) pint</item>
+        <item>Cup</item>
+        <item>1/8 cup 2 tbsp</item>
+        <item>(&#188;) cup 4 tbsp</item>
+        <item>(&#8531;) cup = 5 tbsp + 1 tsp</item>
+        <item>3/8 cup = (&#188;) cup + 2 tsp</item>
+        <item>(&#189;) cup = 8 tbsp</item>
+        <item>2/3 cup = 10 tbsp + 2 tsp</item>
+        <item>5/8 = (&#189;) cup + 2 tbsp</item>
+        <item>(&#190;) cup = 12 tbsp</item>
+        <item>7/8 cup = (&#190;) cup + 2 tbsp</item>
+        <item>1 cup = 16 tbsp OR (&#189;) pint</item>
+        <item>2 cups = 1 pint</item>
+        <item>3 cups = 1 (&#189;) pint</item>
+        <item>4 cups = 1 quart</item>
+        <item>8 cups = 2 quarts</item>
+        <item>Pint</item>
+        <item>1 pint = 2 cups</item>
+        <item>2 pints = 1 quart</item>
+        <item>Quart</item>
+        <item>1 quart = 2 pints OR 4 cups</item>
+        <item>4 quarts = 1 gallon</item>
+        <item>Ounces (oz)</item>
+        <item>16 oz = 1 pound</item>
+        <item>(&#189;) fluid oz = 1 tbsp</item>
+        <item>1 fluid oz = 2 tbsp OR 1/8 cup</item>
+        <item>1 (&#189;)  fluid oz = 3 tbsp</item>
+        <item>2 fluid oz = 4 tbsp OR (&#188;) cup</item>
+        <item>4 fluid oz = 8 tbsp OR (&#189;) cup</item>
+        <item>8 fluid oz = 16 tbsp OR 1 cup OR (&#189;) pint</item>
+        <item>16 fluid oz = 2 cups OR 1 pint</item>
+        <item>24 fluid oz = 3 cups OR 1 (&#189;) pint</item>
+        <item>32 fluid oz = 4 cups OR 1 quart</item>
+        <item>64 fluid oz = 8 cups OR 2 quarts</item>
+        <item>128 fluid oz = 16 cups OR 8 pints OR 4 quarts OR 1 gallon</item>
+    </string-array>
+
+    <string-array name="UStoMetric">
+        <item>1/5 tsp (teaspoon) = 1 ml (milliliter)</item>
+        <item>1 tsp = 5 ml</item>
+        <item>1 tbsp (tablespoon) = 15 ml</item>
+        <item>1 fluid oz = 30 ml</item>
+        <item>1/5 cup = 50 ml</item>
+        <item>1 cup = 240 ml</item>
+        <item>2 cups (1 pint) = 470 ml</item>
+        <item>4 cups (1 quart) = 0.95 l (liter)</item>
+        <item>4 quarts (1 gallon) = 3.8 l</item>
+        <item>1 oz (ounce) = 28 g (grams)</item>
+        <item>1 lb (pound) = 454 g</item>
+        <item>Oven Temperatures</item>
+        <item>275 F = 140 C = gas mark 1-cool</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="MetrictoUS">
+        <item>1 ml (milliliter) = 1/5 tsp (teaspoon)</item>
+        <item>5 ml = 1 tsp (teaspoon)</item>
+        <item>15 ml = 1 tbsp (tablespoon)</item>
+        <item>30 ml = 1 fluid oz</item>
+        <item>100 ml = 3.4 fluid oz</item>
+        <item>240 ml = 1 cup</item>
+        <item>1 l (liter) = 34 fluid oz</item>
+        <item>1 l (liter) = 4.2 cups</item>
+        <item>1 l (liter) = 2.1 pints</item>
+        <item>1 l (liter) = 1.06 quarts</item>
+        <item>1 l (liter) = 0.26 gallon</item>
+        <item>1 g (gram) = 0.035 oz (ounce)</item>
+        <item>100 g = 3.5 oz</item>
+        <item>500 g 1.10 lbs (pounds)</item>
+        <item>1 kg (kilogram) = 2.205 lbs</item>
+        <item>1 kg = 35 oz</item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item></item>
         <item></item>
         <item></item>
