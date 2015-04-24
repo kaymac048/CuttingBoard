@@ -4,46 +4,62 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="kaylamacfarlane.cuttingboard.Conversion_Tool">
+    tools:context="kaylamacfarlane.cuttingboard.Conversion_Tool"
+    android:background="@drawable/wood_texture">
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        android:layout_above="@+id/spinner2"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="101dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="162dp" />
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:background="#ffaaaaaa"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:autoText="false" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText6"
-        android:background="#ffff3ad6"
-        android:layout_above="@+id/spinner1"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="31dp"
-        android:layout_alignParentEnd="true" />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="60dp"/>
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText7"
-        android:background="#ff2d27ff"
-        android:layout_above="@+id/spinner2"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="51dp"
-        android:layout_alignParentEnd="true" />
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:background="#ffaaaaaa"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:height="50dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert Measurement"
+            android:id="@+id/CMbutton"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
 
 </RelativeLayout>
