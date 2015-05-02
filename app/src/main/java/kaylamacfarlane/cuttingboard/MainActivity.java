@@ -16,23 +16,23 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button Hbutton = (Button) findViewById(R.id.Hbutton);
+        /*final Button Hbutton = (Button) findViewById(R.id.Hbutton);
         Hbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Home.class);
                 startActivity(intent);
 
             }
-        });
+        });*/
 
-        final Button Ebutton = (Button) findViewById(R.id.Ebutton);
+        /*final Button Ebutton = (Button) findViewById(R.id.Ebutton);
         Ebutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Explore.class);
                 startActivity(intent);
 
             }
-        });
+        });*/
 
         final Button ARbutton = (Button) findViewById(R.id.ARbutton);
         ARbutton.setOnClickListener(new View.OnClickListener() {

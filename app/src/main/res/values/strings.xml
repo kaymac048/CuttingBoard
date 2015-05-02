@@ -11,8 +11,6 @@
     <string name="title_section1">Equivalents</string>
     <string name="title_section2">US to Metric</string>
     <string name="title_section3">Metric to US</string>
-    <string name="title_section4">My Recipes</string>
-    <string name="title_section5">Favorites</string>
     <string name="title_activity_conversion_chart">Conversion Chart</string>
     <string name="title_activity_home">Home</string>
     <string name="title_activity_recipe">Recipe</string>

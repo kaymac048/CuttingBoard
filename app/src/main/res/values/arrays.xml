@@ -2,15 +2,168 @@
 <resources>
 
     <string-array name="equivalents">
-        <item>A dash = 1/16 tsp</item>
-        <item>A pinch = 1/8 tsp</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Teaspoon (tsp)</item>
+        <item>1/16 tsp = A dash</item>
+        <item>1/8 tsp = A pinch</item>
+        <item>1 tsp = (&#8531;) tsp</item>
+        <item>3 tsp = 1 tbsp</item>
+        <item>Tablespoon (tbsp)</item>
+        <item>(&#189;) tbsp = 1 (&#189;) tsp</item>
+        <item>2 tbsp = 1/8 cup</item>
+        <item>3 tbsp = 1 (&#189;) ounce</item>
+        <item>4 tbsp = (&#188;) cup</item>
+        <item>5 tbsp + 1 tsp = (&#8531;) cup</item>
+        <item>8 tbsp = (&#189;) cup</item>
+        <item>10 tbsp + 2tsp = 2/3 cup</item>
+        <item>12 tbsp = (&#190;) cup</item>
+        <item>16 tbsp = 1 cup OR (&#189;) pint</item>
+        <item>Cup</item>
+        <item>1/8 cup 2 tbsp</item>
+        <item>(&#188;) cup 4 tbsp</item>
+        <item>(&#8531;) cup = 5 tbsp + 1 tsp</item>
+        <item>3/8 cup = (&#188;) cup + 2 tsp</item>
+        <item>(&#189;) cup = 8 tbsp</item>
+        <item>2/3 cup = 10 tbsp + 2 tsp</item>
+        <item>5/8 = (&#189;) cup + 2 tbsp</item>
+        <item>(&#190;) cup = 12 tbsp</item>
+        <item>7/8 cup = (&#190;) cup + 2 tbsp</item>
+        <item>1 cup = 16 tbsp OR (&#189;) pint</item>
+        <item>2 cups = 1 pint</item>
+        <item>3 cups = 1 (&#189;) pint</item>
+        <item>4 cups = 1 quart</item>
+        <item>8 cups = 2 quarts</item>
+        <item>Pint</item>
+        <item>1 pint = 2 cups</item>
+        <item>2 pints = 1 quart</item>
+        <item>Quart</item>
+        <item>1 quart = 2 pints OR 4 cups</item>
+        <item>4 quarts = 1 gallon</item>
+        <item>Ounces (oz)</item>
+        <item>16 oz = 1 pound</item>
+        <item>(&#189;) fluid oz = 1 tbsp</item>
+        <item>1 fluid oz = 2 tbsp OR 1/8 cup</item>
+        <item>1 (&#189;)  fluid oz = 3 tbsp</item>
+        <item>2 fluid oz = 4 tbsp OR (&#188;) cup</item>
+        <item>4 fluid oz = 8 tbsp OR (&#189;) cup</item>
+        <item>8 fluid oz = 16 tbsp OR 1 cup OR (&#189;) pint</item>
+        <item>16 fluid oz = 2 cups OR 1 pint</item>
+        <item>24 fluid oz = 3 cups OR 1 (&#189;) pint</item>
+        <item>32 fluid oz = 4 cups OR 1 quart</item>
+        <item>64 fluid oz = 8 cups OR 2 quarts</item>
+        <item>128 fluid oz = 16 cups OR 8 pints OR 4 quarts OR 1 gallon</item>
+    </string-array>
+
+    <string-array name="UStoMetric">
+        <item>Teaspoon (tsp)</item>
+        <item>1/5 tsp = 1 ml (milliliter)</item>
+        <item>1 tsp = 5 ml</item>
+        <item>Tablespoon (tbsp)</item>
+        <item>1 tbsp = 15 ml</item>
+        <item>Cup</item>
+        <item>1/8 cup = 30 ml</item>
+        <item>1/5 cup = 50 ml</item>
+        <item>(&#188;) cup = 60 ml</item>
+        <item>(&#8531;) cup = 80 ml</item>
+        <item>(&#189;) cup = 120 ml</item>
+        <item>2/3 cup = 160 ml</item>
+        <item>(&#190;) cup = 180 ml</item>
+        <item>1 cup = 240 ml</item>
+        <item>1 (&#189;) cup = 350 ml</item>
+        <item>2 cups = 475 ml</item>
+        <item>3 cups = 700 ml</item>
+        <item>4 cups = 950 ml OR 0.95 l (liter)</item>
+        <item>Pint</item>
+        <item>(&#189;) pint = 240 ml</item>
+        <item>1 pint = 475 ml</item>
+        <item>1 (&#189;) pint = 700 ml</item>
+        <item>2 pint = 950 ml OR 0.95 l (liter)</item>
+        <item>Quart</item>
+        <item>1 quart = 950 ml OR 0.95 l (liter)</item>
+        <item>4 quarts = 3.8 l</item>
+        <item>Gallon</item>
+        <item>1 gallon = 3.8 l</item>
+        <item>Fluid Ounce</item>
+        <item>(&#189;) fluid oz = 15 ml</item>
+        <item>1 fluid oz = 30 ml</item>
+        <item>2 fluid oz = 30 ml</item>
+        <item>4 fluid oz = 120 ml</item>
+        <item>6 fluid oz = 180 ml</item>
+        <item>8 fluid oz = 240 ml</item>
+        <item>12 fluid oz = 350 ml</item>
+        <item>16 fluid oz = 475 ml</item>
+        <item>Ounce</item>
+        <item>1 oz = 28 g (grams)</item>
+        <item>4 oz = 113 g</item>
+        <item>8 oz = 230 g</item>
+        <item>12 oz = 340 g</item>
+        <item>16 oz = 450 g</item>
+        <item>Pound</item>
+        <item>(&#188;) lb = 113 g</item>
+        <item>(&#8531;) lb = 150 g</item>
+        <item>(&#189;) lb = 230 g</item>
+        <item>2/3 lb = 300 g</item>
+        <item>(&#190;) lb = 340 g</item>
+        <item>1 lb = 454 g</item>
+        <item>2 lb = 900 g</item>
+        <item>Oven Temperatures</item>
+        <item>275 F = 140 C = gas mark 1 - cool</item>
+        <item>300 F = 150 C = gas mark 2</item>
+        <item>325 F = 165 C = gas mark 3 - very moderate</item>
+        <item>350 F = 180 C = gas mark 4 - moderate</item>
+        <item>375 F = 190 C = gas mark 5</item>
+        <item>400 F = 200 C = gas mark 6 - -moderately hot</item>
+        <item>425 F = 220 C = gas mark 7 - hot</item>
+        <item>450 F = 230 C = gas mark 9</item>
+        <item>475 F = 240 C = gas mark 10 - very hot</item>
+    </string-array>
+
+    <string-array name="MetrictoUS">
+        <item>Milliliter</item>
+        <item>1 ml = 1/5 tsp (teaspoon)</item>
+        <item>5 ml = 1 tsp</item>
+        <item>15 ml = 1 tbsp (tablespoon)</item>
+        <item>30 ml = 1/8 cup OR 1 fluid oz</item>
+        <item>60 ml = (&#188;) cup OR 2 fluid oz</item>
+        <item>80 ml = (&#8531;) cup</item>
+        <item>100 ml = 3.4 fluid oz</item>
+        <item>120 ml = (&#189;) cup OR 4 fluid oz</item>
+        <item>160 ml = 2/3 cup</item>
+        <item>180 ml = (&#190;) cup OR 6 fluid oz</item>
+        <item>240 ml = 1 cup OR 8 fluid oz OR (&#189;) pint</item>
+        <item>350 ml = 1 (&#189;) cups OR 12 fluid oz</item>
+        <item>475 ml = 2 cups OR 16 fluid oz OR 1 pint</item>
+        <item>700 ml = 3 cups OR 1 (&#189;) pint</item>
+        <item>950 ml = 4 cups OR 2 pints OR 1 quart</item>
+        <item>Liter</item>
+        <item>1 l = 34 fluid oz</item>
+        <item>1 l = 4.2 cups</item>
+        <item>1 l = 2.1 pints</item>
+        <item>1 l = 1.06 quarts</item>
+        <item>3.8 l = 4 quarts OR 1 gallon</item>
+        <item>Gram</item>
+        <item>1 g = 0.035 oz (ounce)</item>
+        <item>28 g = 1 oz</item>
+        <item>100 g = 3.5 oz</item>
+        <item>113 g = 4 oz OR (&#188;) lb (pound)</item>
+        <item>150 g = (&#8531;) lb</item>
+        <item>230 g = 8 oz OR (&#189;) lb</item>
+        <item>300 g = 2/3 lb</item>
+        <item>340 g = 12 oz OR (&#190;) lb</item>
+        <item>450 g = 16 oz OR 1 lb</item>
+        <item>500 g 1.10 lbs (pounds)</item>
+        <item>900 g = 2 lbs</item>
+        <item>Kilogram</item>
+        <item>1 kg = 2.205 lbs</item>
+        <item>1 kg = 35 oz</item>
+        <item>Oven Temperatures</item>
+        <item>140 C = gas mark 1 - cool = 275 F</item>
+        <item>150 C = gas mark 2 = 300 F</item>
+        <item>165 C = gas mark 3 - very moderate = 325 F</item>
+        <item>180 C = gas mark 4 - moderate = 350 F</item>
+        <item>190 C = gas mark 5 = 375 F</item>
+        <item>200 C = gas mark 6 - -moderately hot = 400 F</item>
+        <item>220 C = gas mark 7 - hot = 425 F</item>
+        <item>230 C = gas mark 9 = 450 F</item>
+        <item>240 C = gas mark 10 - very hot = 475 F</item>
     </string-array>
 </resources>
