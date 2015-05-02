@@ -31,7 +31,7 @@ public class Add_Recipe extends ActionBarActivity {
         setContentView(R.layout.activity_add__recipe);
 
 
-        ((ImageView) findViewById(R.id.imageView))
+        ((ImageButton) findViewById(R.id.imageButton))
                 .setOnClickListener(new View.OnClickListener() {
 
                     public void onClick(View arg0) {
