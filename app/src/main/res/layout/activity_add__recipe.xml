@@ -45,13 +45,13 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Title:"
             android:id="@+id/textView"
-            android:layout_alignBottom="@+id/editText"
+            android:layout_alignBottom="@+id/Title_editText"
             android:layout_alignParentStart="true"
             android:background="#00ffffff" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/Title_editText"
             android:minWidth="280dp"
             android:height="30dp"
             android:layout_alignParentTop="true"
@@ -64,7 +64,7 @@
             android:layout_marginTop="30dp"
             android:minHeight="150dp"
             android:minWidth="150dp"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/textButton"
             android:layout_toEndOf="@+id/textView2" />
 
         <TextView
@@ -81,10 +81,10 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/ptime_editText"
             android:height="30dp"
             android:layout_alignBottom="@+id/textView2"
-            android:layout_alignStart="@+id/editText3" />
+            android:layout_alignStart="@+id/cTime_editText" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,7 +92,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Cook Time:"
             android:id="@+id/textView3"
-            android:layout_below="@+id/editText2"
+            android:layout_below="@+id/ptime_editText"
             android:layout_alignParentStart="true"
             android:layout_marginTop="27dp" />
 
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/editText3"
+            android:id="@+id/cTime_editText"
             android:layout_alignBottom="@+id/textView3"
             android:layout_toEndOf="@+id/textView3" />
 
@@ -112,7 +112,7 @@
             android:text="Total Time:"
             android:id="@+id/textView4"
             android:layout_marginTop="29dp"
-            android:layout_below="@+id/editText3"
+            android:layout_below="@+id/cTime_editText"
             android:layout_alignParentStart="true" />
 
         <EditText
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/editText4"
+            android:id="@+id/tTime_editText"
             android:layout_alignBottom="@+id/textView4"
             android:layout_toEndOf="@+id/textView4" />
 
@@ -131,7 +131,7 @@
             android:text="Ingredients:"
             android:id="@+id/textView5"
             android:layout_marginTop="29dp"
-            android:layout_below="@+id/editText5"
+            android:layout_below="@+id/Ingredients_editText"
             android:layout_alignParentStart="true" />
 
 
@@ -139,8 +139,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:id="@+id/editText5"
+            android:id="@+id/Ingredients_editText"
             android:layout_alignBottom="@+id/textView5"
+            android:layout_toEndOf="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Directions:"
+            android:id="@+id/textView6"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/Directions_editText"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/Directions_editText"
+            android:layout_alignBottom="@+id/textView6"
             android:layout_toEndOf="@+id/textView4" />
 
 
