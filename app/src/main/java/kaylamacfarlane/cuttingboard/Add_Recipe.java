@@ -71,9 +71,9 @@ public class Add_Recipe extends ActionBarActivity {
             int columnIndex = c.getColumnIndex(filePath[0]);
             String picturePath = c.getString(columnIndex);
             c.close();
-
+            Bitmap thumbnail=BitmapFactory.decodeStream(getContentResolver().openInputStream(selectedImage));
             //This thumbnail object now contains your image!
-            Bitmap thumbnail = (BitmapFactory.decodeFile(picturePath));
+       //     Bitmap thumbnail = (BitmapFactory.decodeFile(picturePath));
             //ignore this one
            // img = thumbnail;
 
