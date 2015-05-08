@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/wood_texture">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:background="#4bfefee7">
 
         <TextView
             android:layout_width="fill_parent"
@@ -15,7 +17,10 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Teaspoon (tsp)"
             android:id="@+id/textView14"
-            android:background="#ffff9f2a" />
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,7 +56,10 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Tablespoon (tbsp)"
             android:id="@+id/textView13"
-            android:background="#ffff9f2a" />
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -122,7 +130,10 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Cup"
             android:id="@+id/textView24"
-            android:background="#ffff9f2a" />
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -213,27 +224,162 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView37"
-            android:text="3 cups = 1 1/2 pint" />
+            android:text="4 cups = 1 quart" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView38"
-            android:text="3 cups = 1 1/2 pint" />
+            android:text="8 cups = 2 quarts" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView39"
-            android:text="3 cups = 1 1/2 pint" />
+            android:text="Pint"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView40"
-            android:text="3 cups = 1 1/2 pint" />
+            android:text="1 pint = 2 cups" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView41"
+            android:text="2 pints = 1 quart" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView42"
+            android:text="Quart"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffff9f2a"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView43"
+            android:text="1 quart = 2 pints OR 4 cups" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView44"
+            android:text="4 quarts = 1 gallon" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView45"
+            android:text="Ounces (oz)"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView46"
+            android:text="16 oz = 1 pound" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView47"
+            android:text="1/2 fluid oz = 1 tbsp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView48"
+            android:text="1 fluid oz = 2 tbsp OR 1/8 cup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView49"
+            android:text="1 1/2 fluid oz = 3 tbsp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView50"
+            android:text="2 fluid oz = 4 tbsp OR 1/4 cup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView51"
+            android:text="4 fluid oz = 8 tbsp OR 1/2 cup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView52"
+            android:text="8 fluid oz = 16 tbsp OR 1 cup OR 1/2 pint"
+            android:textIsSelectable="false"
+            android:textSize="19.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView53"
+            android:text="16 fluid oz = 2 cups OR 1 pint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView54"
+            android:text="24 fluid oz = 3 cups OR 1 1/2 pint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView55"
+            android:text="32 fluid oz = 4 cups OR 1 quart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView56"
+            android:text="64 fluid oz = 8 cups OR 2 quarts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView57"
+            android:text="128 fluid oz = 16 cups OR 8 pints OR 4 quarts OR 1 gallon"
+            android:textSize="19.5dp" />
+
     </LinearLayout>
 </ScrollView>

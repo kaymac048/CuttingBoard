@@ -1,13 +1,367 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/wood_texture">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Metric to Us"
-        android:id="@+id/textView8"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp" />
-</RelativeLayout>
+        android:layout_alignParentStart="true"
+        android:background="#55fefee7">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Milliliter (mL)"
+            android:id="@+id/textView8"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 mL = 1/5 tsp (teaspoon)"
+            android:id="@+id/textView118" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5 mL = 1 tsp"
+            android:id="@+id/textView119" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="15 mL = 1 tbsp (tablespoon)"
+            android:id="@+id/textView120" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="30 mL = 1/8 cup OR 1 fluid oz"
+            android:id="@+id/textView121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="60 mL = 1/4 cup OR 2 fluid oz"
+            android:id="@+id/textView122" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="80 mL = 1/3 cup"
+            android:id="@+id/textView123" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="100 mL = 3.4 fluid oz"
+            android:id="@+id/textView124" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="120 mL = 1/2 cup OR 4 fluid oz"
+            android:id="@+id/textView125" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="160 mL = 2/3 cup"
+            android:id="@+id/textView126" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="180 mL = 3/4 cup OR 6 fluid oz"
+            android:id="@+id/textView127" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="240 mL = 1 cup OR 8 fluid oz OR 1/2 pint"
+            android:id="@+id/textView128"
+            android:textSize="19.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="350 mL = 1 1/2 cups OR 12 fluid oz"
+            android:id="@+id/textView129" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="475 mL = 2 cups OR 16 fluid oz OR 1 pint"
+            android:id="@+id/textView130"
+            android:textSize="19.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="700 mL = 3 cups OR 1 1/2 pint"
+            android:id="@+id/textView131" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="950 mL = 4 cups OR 2 pints OR 1 quart"
+            android:id="@+id/textView132"
+            android:textSize="21dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Liter (L)"
+            android:id="@+id/textView133"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 L = 34 fluid oz"
+            android:id="@+id/textView134" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 L = 4.2 cups"
+            android:id="@+id/textView135" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 L = 2.1 pints"
+            android:id="@+id/textView136" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 L = 1.06 quarts"
+            android:id="@+id/textView137" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3.8 L = 4 quarts OR 1 gallon"
+            android:id="@+id/textView138" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gram (g)"
+            android:id="@+id/textView139"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 g = 0.035 oz (ounce)"
+            android:id="@+id/textView140" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="28 g = 1 oz"
+            android:id="@+id/textView141" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="100 g = 3.5 oz"
+            android:id="@+id/textView142" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="113 g = 4 oz OR 1/4 lb (pound)"
+            android:id="@+id/textView143" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="150 g = 1/3 lb"
+            android:id="@+id/textView144" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="230 g = 8 oz OR 1/2 lb"
+            android:id="@+id/textView145" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="300 g = 2/3 lb"
+            android:id="@+id/textView146" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="340 g = 12 oz OR 3/4 lb"
+            android:id="@+id/textView147" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="450 g = 16 oz OR 1 lb"
+            android:id="@+id/textView148" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="500 g = 1.10 lbs (pounds)"
+            android:id="@+id/textView149" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="900 g = 2 lbs"
+            android:id="@+id/textView150" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Kilogram (kg)"
+            android:id="@+id/textView151"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 kg = 2.205 lbs"
+            android:id="@+id/textView152" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1 kg = 35 oz"
+            android:id="@+id/textView153" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Oven Temperatures"
+            android:id="@+id/textView154"
+            android:background="#ffff9f2a"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="140 C = gas mark 1 = 275 F"
+            android:id="@+id/textView155" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="150 C = gas mark 2 = 300 F"
+            android:id="@+id/textView156" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="165 C = gas mark 3 = 325 F"
+            android:id="@+id/textView157" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="180 C = gas mark 4 = 350 F"
+            android:id="@+id/textView158" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="190 C = gas mark 5 = 375 F"
+            android:id="@+id/textView159" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="200 C = gas mark 6 = 400 F"
+            android:id="@+id/textView160" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="220 C = gas mark 7 = 425 F"
+            android:id="@+id/textView161" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="230 C = gas mark 9 = 450 F"
+            android:id="@+id/textView162" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="240 C = gas mark 10 = 475 F"
+            android:id="@+id/textView163" />
+
+    </LinearLayout>
+</ScrollView>
