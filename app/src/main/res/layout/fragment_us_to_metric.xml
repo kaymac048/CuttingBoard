@@ -17,7 +17,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Teaspoon (tsp)"
             android:id="@+id/textView9"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -42,7 +42,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Tablespoon (tbsp)"
             android:id="@+id/textView60"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -60,7 +60,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Cup"
             android:id="@+id/textView62"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -155,7 +155,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Pint"
             android:id="@+id/textView75"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -194,7 +194,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Quart"
             android:id="@+id/textView80"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -219,7 +219,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Gallon"
             android:id="@+id/textView83"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -237,7 +237,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Fluid Ounce"
             android:id="@+id/textView85"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -304,7 +304,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Ounce (oz)"
             android:id="@+id/textView94"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -350,7 +350,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Pound (lb)"
             android:id="@+id/textView100"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -410,7 +410,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Oven Temperatures"
             android:id="@+id/textView108"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />

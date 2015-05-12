@@ -17,7 +17,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Teaspoon (tsp)"
             android:id="@+id/textView14"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -56,7 +56,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Tablespoon (tbsp)"
             android:id="@+id/textView13"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
@@ -130,7 +130,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Cup"
             android:id="@+id/textView24"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"/>
@@ -239,7 +239,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView39"
             android:text="Pint"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"/>
@@ -266,7 +266,7 @@
             android:text="Quart"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp" />
 
         <TextView
@@ -289,7 +289,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView45"
             android:text="Ounces (oz)"
-            android:background="#ffff9f2a"
+            android:background="#d16c370f"
             android:textSize="25dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp" />
