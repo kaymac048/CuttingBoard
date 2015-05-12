@@ -15,8 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -29,6 +31,32 @@ public class Add_Recipe extends ActionBarActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add__recipe);
+
+
+        EditText editText = (EditText)findViewById(R.id.Title_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        EditText editText2 = (EditText)findViewById(R.id.ptime_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        EditText editText3 = (EditText)findViewById(R.id.cTime_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        EditText editText4 = (EditText)findViewById(R.id.tTime_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        EditText editText5 = (EditText)findViewById(R.id.Ingredients_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        EditText editText6 = (EditText)findViewById(R.id.Directions_editText);
+        editText.setText("", TextView.BufferType.EDITABLE);
+
+        final Button button = (Button) findViewById(R.id.saved);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            }
+        });
 
 
         ((ImageButton) findViewById(R.id.imageButton))
