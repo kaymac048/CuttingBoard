@@ -25,7 +25,7 @@
             android:autoText="false" />
 
         <Spinner
-            android:id="@+id/spinner1"
+            android:id="@+id/spinnerMetric"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:drawable/btn_dropdown"
@@ -44,7 +44,7 @@
             android:layout_marginBottom="30dp"/>
 
         <Spinner
-            android:id="@+id/spinner2"
+            android:id="@+id/spinnerUS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:drawable/btn_dropdown"
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Convert Measurement"
-            android:id="@+id/CMbutton"
+            android:id="@+id/convertButton"
             android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
