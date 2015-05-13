@@ -16,5 +16,12 @@
     <string name="title_activity_recipe">Recipe</string>
     <string name="title_activity_conversion__tool">Conversion Tool</string>
     <string name="title_activity_recipe__module">Recipe_Module</string>
+    <string name="RecipeTitle">Recipe Title:</string>
+    <string name="PrepTime">Prep Time:</string>
+    <string name="CookTime">Cook Time:</string>
+    <string name="TotalTime">Total Time:</string>
+    <string name="Ingredients">Ingredients:</string>
+    <string name="Directions">Directions:</string>
+    <string name="SendButtonRecipe">Store Recipe</string>
 
 </resources>

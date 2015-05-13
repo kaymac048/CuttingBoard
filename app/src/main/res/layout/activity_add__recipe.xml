@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Recipe Title:"
+            android:text="@string/RecipeTitle"
             android:id="@+id/textView"
             android:layout_alignBottom="@+id/Title_editText"
             android:layout_alignParentStart="true"
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Prep Time:"
+            android:text="@string/PrepTime"
             android:id="@+id/textView2"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true" />
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/ptime_editText"
+            android:id="@+id/PrepTime_editText"
             android:height="30dp"
             android:layout_alignBottom="@+id/textView2"
             android:layout_alignStart="@+id/cTime_editText" />
@@ -92,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Cook Time:"
+            android:text="@string/CookTime"
             android:id="@+id/textView3"
             android:layout_below="@+id/ptime_editText"
             android:layout_alignParentStart="true"
@@ -111,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Total Time:"
+            android:text="@string/TotalTime"
             android:id="@+id/textView4"
             android:layout_marginTop="29dp"
             android:layout_below="@+id/cTime_editText"
@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Ingredients:"
+            android:text="@string/Ingredients"
             android:id="@+id/textView5"
             android:layout_marginTop="29dp"
             android:layout_below="@+id/Ingredients_editText"
@@ -150,7 +150,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Directions:"
+            android:text="@string/Directions"
             android:id="@+id/textView6"
             android:layout_marginTop="29dp"
             android:layout_below="@+id/Directions_editText"
@@ -163,7 +163,13 @@
             android:id="@+id/Directions_editText"
             android:layout_alignBottom="@+id/textView6"
             android:layout_toEndOf="@+id/textView4" />
-
+        <Button
+            android:id="@+id/ButtonSendRecipe"
+            android:layout_height="wrap_content"
+            android:text="Store Recipe"
+            android:onClick="storeRecipe"
+            android:layout_width="fill_parent">
+        </Button>
 
 
     </LinearLayout>
