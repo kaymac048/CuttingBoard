@@ -60,12 +60,12 @@ public class Conversion_Tool extends ActionBarActivity //implements AdapterView.
         addItemsOnSpinnerMetric();
         addListenerOnButton();
         addListenerOnSpinnerItemSelection();
-        output=(TextView)findViewById(R.id.textView7);
+        //output=(TextView)findViewById(R.id.textView7);
 
 
-        userIn = (EditText)findViewById(R.id.editText6);
-        UserInString = (String) (userIn + "");
-        userDouble = Double.parseDouble(UserInString);
+        //userIn = (EditText)findViewById(R.id.editText6);
+        //UserInString = (String) (userIn + "");
+       // userDouble = Double.parseDouble(UserInString);
 
 
         // adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -119,7 +119,7 @@ public class Conversion_Tool extends ActionBarActivity //implements AdapterView.
         spinnerMetric = (Spinner) findViewById(R.id.spinnerMetric);
         spinnerUS = (Spinner) findViewById(R.id.spinnerUS);
         convertButton = (Button) findViewById(R.id.convertButton);
-        convertOut = String.valueOf(findViewById(R.id.editText7));
+       // convertOut = String.valueOf(findViewById(R.id.editText7));
 
         convertButton.setOnClickListener(new View.OnClickListener() {
 
@@ -139,28 +139,30 @@ public class Conversion_Tool extends ActionBarActivity //implements AdapterView.
 
 
 
-                       //switch (position) {
-                       //case 0:
+                       switch (position) {
+                       case 0:
                        // Whatever you want to happen when the first item gets selected
-                       if (spinnerMetric.getId() == 0 && spinnerUS.getId() == 0) {
-                           convertDouble = userDouble / 5;
-                           convertOut = (convertDouble) + "";
+                     //  if (spinnerMetric.getId() == 0 && spinnerUS.getId() == 0) {
+                     //      convertDouble = userDouble / 5;
+                     //      convertOut = (convertDouble) + "";
 
 
-                           output.setText(convertOut);
+                     //      output.setText(convertOut);
 
-                       }
+                           break;
+                           case 1:
+                           //Whatever you want to happen when the second item gets selected
+                           break;
+                           case 2:
+                           // Whatever you want to happen when the third item gets selected
+                           break;
+
+                      }
 
                   }
 
 
-                     //break;
-                     //case 1:
-                     // Whatever you want to happen when the second item gets selected
-                     //break;
-                     //case 2:
-                     // Whatever you want to happen when the third item gets selected
-                     //break;
+
 
                      // }
                       // }

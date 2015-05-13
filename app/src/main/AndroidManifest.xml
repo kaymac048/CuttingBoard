@@ -74,10 +74,7 @@
             android:name=".Recipe_Module"
             android:label="@string/title_activity_recipe__module" >
         </activity>
-        <activity
-            android:name=".ConversionToolListener"
-            android:label="@string/title_activity_conversion_tool_listener" >
-        </activity>
+
     </application>
 
 </manifest>
