@@ -20,6 +20,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -101,7 +102,8 @@ public class Add_Recipe extends ActionBarActivity {
             }
 
         });
-                ((ImageButton) findViewById(R.id.imageButton))
+
+        ((ImageButton) findViewById(R.id.imageButton))
                 .setOnClickListener(new View.OnClickListener() {
 
                     public void onClick(View arg0) {

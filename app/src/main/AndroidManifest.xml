@@ -75,6 +75,7 @@
             android:name=".Recipe_Module"
             android:label="@string/title_activity_recipe__module" >
         </activity>
+
     </application>
 
 </manifest>
