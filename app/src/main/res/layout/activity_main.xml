@@ -37,8 +37,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Recipe"
-                android:id="@+id/Rbutton"
+                android:text="Explore"
+                android:id="@+id/Ebutton"
                 android:layout_gravity="center_horizontal"
                 android:width="170dp" />
 
